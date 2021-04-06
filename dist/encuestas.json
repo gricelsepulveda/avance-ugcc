@@ -1,0 +1,130 @@
+{
+    "ok": true,
+    "body": [
+      {
+        "encuesta_nombre": "ENCUESTA DIARIA DE CAMAS BÁSICAS/MEDIAS 15-02-2021 - AM",
+        "encuesta_texto_inicio": "Primero que todo agradecer vuestro esfuerzo y logros tan relevantes para el cuidado de nuestros enfermos. El propósito de esta encuesta de conocer la capacidad actual de su establecimiento en relación cama básica y media. De esta manera la autoridad puede estar informada acerca de sus necesidades críticas y establecer estrategias de apoyo.",
+        "usuario": {
+          "usuario_nombres": "Daniela",
+          "usuario_apaterno": "Ampuero",
+          "usuario_amaterno": "Alcayaga",
+          "unidad": "SSVMQ",
+          "establecimiento": "H. Gustavo Fricke"
+        },
+        "grupo_preguntas": [
+          {
+            "grupo_nombre": "CAMAS BASICAS",
+            "grupo_id": 1,
+            "preguntas": [
+              {
+                "pregunta_id": 1,
+                "orden_pregunta": 1,
+                "pregunta_glosa": "¿Cuántas camas básicas tiene habilitadas en en este momento en todo su establecimiento?",
+                "pregunta_ayuda": "(No incluye camas básicas de psiquiatría, maternidad y obstetricia) Corresponde al número total de camas que cuenta su establecimiento. Se entiende por cama habilitada aquella que cuenta con lo necesario para dar las prestaciones que aplican, es decir, recurso humano y otros.",
+                "pregunta_habilitado": "1",
+                "respuestas": [
+                  {
+                    "respuesta_id": 1,
+                    "respuesta_glosa": "Camas Habilitadas",
+                    "respuesta_habilitado": "1",
+                    "valor_respuesta": "",
+                    "estado_respuesta": "",
+                    "observacion_respuesta": ""
+                  }
+                ]
+              },
+              {
+                "pregunta_id": 2,
+                "orden_pregunta": 2,
+                "pregunta_glosa": "Del total antes mencionado, ¿Cuántas camas se encuentran ocupadas? ",
+                "pregunta_ayuda": "(No incluye camas basicas de psiquiatría, maternidad y obstetricia) Corresponde al número total de camas que cuenta su establecimiento. Se entiende por cama habilitada aquella que cuenta con lo necesario para dar las prestaciones que aplican, es decir, recurso humano y otros.",
+                "pregunta_habilitado": "1",
+                "respuestas": [
+                  {
+                    "respuesta_id": 2,
+                    "respuesta_glosa": "Camas Ocupadas",
+                    "respuesta_habilitado": "1",
+                    "valor_respuesta": "",
+                    "estado_respuesta": "",
+                    "observacion_respuesta": ""
+                  },
+                  {
+                    "respuesta_id": 5,
+                    "respuesta_glosa": "COVID +",
+                    "respuesta_habilitado": "1",
+                    "valor_respuesta": "",
+                    "estado_respuesta": "",
+                    "observacion_respuesta": ""
+                  },
+                  {
+                    "respuesta_id": 6,
+                    "respuesta_glosa": "NO COVID",
+                    "respuesta_habilitado": "1",
+                    "valor_respuesta": "",
+                    "estado_respuesta": "",
+                    "observacion_respuesta": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "grupo_nombre": "CAMAS MEDIAS",
+            "grupo_id": 3,
+            "preguntas": [
+              {
+                "pregunta_id": 5,
+                "orden_pregunta": 3,
+                "pregunta_glosa": "¿Cuántas camas Medias tiene habilitadas en en este momento en todo su establecimiento?",
+                "pregunta_ayuda": "(No incluye camas medias de psiquiatría, maternidad y obstetricia) Corresponde al número total de camas que cuenta su establecimiento. Se entiende por cama habilitada aquella que cuenta con lo necesario para dar las prestaciones que aplican, es decir, recurso humano y otros.",
+                "pregunta_habilitado": "1",
+                "respuestas": [
+                  {
+                    "respuesta_id": 1,
+                    "respuesta_glosa": "Camas Habilitadas",
+                    "respuesta_habilitado": "1",
+                    "valor_respuesta": "",
+                    "estado_respuesta": "",
+                    "observacion_respuesta": ""
+                  }
+                ]
+              },
+              {
+                "pregunta_id": 6,
+                "orden_pregunta": 4,
+                "pregunta_glosa": "Del total antes mencionado, ¿Cuántas camas se encuentran ocupadas?",
+                "pregunta_ayuda": "(No incluye camas UCI de psiquiatría, maternidad y obstetricia) Corresponde al número total de camas que cuenta su establecimiento. Se entiende por cama habilitada aquella que cuenta con lo necesario para dar las prestaciones que aplican, es decir, recurso humano y otros.",
+                "pregunta_habilitado": "1",
+                "respuestas": [
+                  {
+                    "respuesta_id": 2,
+                    "respuesta_glosa": "Camas Ocupadas",
+                    "respuesta_habilitado": "1",
+                    "valor_respuesta": "",
+                    "estado_respuesta": "",
+                    "observacion_respuesta": ""
+                  },
+                  {
+                    "respuesta_id": 10,
+                    "respuesta_glosa": "Ocupadas COVID+",
+                    "respuesta_habilitado": "1",
+                    "valor_respuesta": "",
+                    "estado_respuesta": "",
+                    "observacion_respuesta": ""
+                  },
+                  {
+                    "respuesta_id": 11,
+                    "respuesta_glosa": "Ocupadas NO COVID",
+                    "respuesta_habilitado": "1",
+                    "valor_respuesta": "",
+                    "estado_respuesta": "",
+                    "observacion_respuesta": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,13 @@
+.form-control{
+/*     border: 1px solid #f7f5f5;
+    border-bottom: 2px solid #a9b7c7; */
+    border: 0;
+    border-bottom: 1px solid #6c6f71;
+}
+input{
+    border-bottom: 2px solid #a9b7c7;
+}
+input:focus{
+    border-bottom: 1px solid #a9b7c7;
+    transform-origin: right left;
+}

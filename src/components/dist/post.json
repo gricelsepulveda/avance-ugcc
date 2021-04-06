@@ -1,0 +1,87 @@
+  {
+        "encuesta_id": 1,
+        "usuario_id": 1,
+        "unidad_id": 1,
+        "grupo_preguntas": [
+            {
+
+                "grupo_nombre": "CAMAS BASICAS",
+                "preguntas": [
+                    {
+                        "pregunta_id": 1,
+                        "respuestas": [
+                            {
+                                "respuesta_id": 1,
+                                "valor_respuesta": "200",
+                                "estado_respuesta": "R",
+                                "observacion_respuesta": "Sin objetar"
+                            }
+                        ]
+                    },
+                    {
+                        "pregunta_id": 2,
+                        "respuestas": [
+                            {
+                                "respuesta_id": 1,
+                                "valor_respuesta": "199",
+                                "estado_respuesta": "R",
+                                "observacion_respuesta": "Sin objetar"
+                            },
+                            {
+                                "respuesta_id": 2,
+                                "valor_respuesta": "99",
+                                "estado_respuesta": "R",
+                                "observacion_respuesta": "Sin objetar"
+                            },
+                            {
+                                "respuesta_id": 3,
+                                "valor_respuesta": "99",
+                                "estado_respuesta": "R",
+                                "observacion_respuesta": "Sin objetar"
+                            }   
+                        ]
+                    }
+                ] 
+            },
+            {
+
+                "grupo_nombre": "CAMAS MEDIAS",
+                "preguntas": [
+                    {
+                        "pregunta_id": 1,
+                        "respuestas": [
+                            {
+                                "respuesta_id": 1,
+                                "valor_respuesta": "200",
+                                "estado_respuesta": "R",
+                                "observacion_respuesta": "Sin objetar"
+                            }
+                        ]
+                    },
+                    {
+                        "pregunta_id": 2,
+                        "respuestas": [
+                            {
+                                "respuesta_id": 1,
+                                "valor_respuesta": "199",
+                                "estado_respuesta": "R",
+                                "observacion_respuesta": "Sin objetar"
+                            },
+                            {
+                                "respuesta_id": 2,
+                                "valor_respuesta": "99",
+                                "estado_respuesta": "R",
+                                "observacion_respuesta": "Sin objetar"
+                            },
+                            {
+                                "respuesta_id": 3,
+                                "valor_respuesta": "99",
+                                "estado_respuesta": "R",
+                                "observacion_respuesta": "Sin objetar"
+                            }   
+                        ]
+                    }
+                ] 
+            }
+        ] 
+    }

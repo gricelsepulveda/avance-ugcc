@@ -1,3 +1,9 @@
+node_modules
+maqueta-ugcc.zip
+servicios-salud.json
+install_nvm.sh
+
+*.lock
 # Logs
 logs
 *.log
@@ -80,7 +86,6 @@ typings/
 
 # Nuxt.js build / generate output
 .nuxt
-dist
 
 # Gatsby files
 .cache/

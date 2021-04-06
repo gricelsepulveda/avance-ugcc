@@ -1,0 +1,32 @@
+.fas.fa-question-circle {
+  cursor: pointer;
+  color: var(--primary);
+}
+.ayuda_texto {
+  background-color: #f1f5ff;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  font-size: 0.9rem;
+  animation: show 300ms ease-in-out;
+  animation-fill-mode: forwards;
+}
+@keyframes show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.btn i {
+  font-weight: 900;
+}
+
+@media (max-width: 992px) {
+  .btn-default-size.collapsible-links-heading, .btn-default-size.collapsible-links-list-link, .btn.btn-default-size {
+    min-width:200px;
+    display: inline-block;
+  }
+  
+}

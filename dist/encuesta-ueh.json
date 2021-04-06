@@ -1,0 +1,83 @@
+{
+    "ok": true,
+    "body": [
+        {
+            "encuesta_nombre": "ENCUESTA DIARIA DE UEH ADULTO 23-02-2021 - AM",
+            "encuesta_texto_inicio": "Primero que todo agradecer vuestro esfuerzo y logros tan relevantes para el cuidado de nuestros enfermos. El propósito de esta encuesta de conocer la situación actual de la UEH de su establecimiento y requerimientos de soporte ventilatorio. De esta manera la autoridad puede estar informada acerca de sus necesidades críticas y establecer estrategias de apoyo.,",
+            "usuario": {
+                "usuario_nombres": "Daniela",
+                "usuario_apaterno": "Ampuero",
+                "usuario_amaterno": "Alcayaga",
+                "unidad": "SSVMQ",
+                "establecimiento": "H. Gustavo Fricke"
+            },
+            "grupo_preguntas": [
+                {
+                    "grupo_nombre": "PREGUNTAS",
+                    "preguntas": [
+                        {
+                            "pregunta_id": 7,
+                            "orden_pregunta": 1,
+                            "grupo_id": 8,
+                            "pregunta_glosa": "¿Cuántos pacientes en espera de cama UCI (intensivo) tiene físicamente en este momento en su servicio de urgencia? (Independiente de que el caso esté solicitado para gestionar con equipo UGCC Minsal)",
+                            "pregunta_ayuda": null,
+                            "pregunta_habilitado": "1",
+                            "respuestas": [
+                                {
+                                    "respuesta_id": 99,
+                                    "respuesta_glosa": null,
+                                    "respuesta_habilitado": "1"
+                                }
+                            ]
+                        },
+                        {
+                            "pregunta_id": 8,
+                            "orden_pregunta": 2,
+                            "grupo_id": 8,
+                            "pregunta_glosa": "¿Cuántos pacientes en espera de cama UTI (intermedio) tiene físicamente en este momento en su servicio de urgencia? (Independiente de que el caso esté solicitado para gestionar con equipo UGCC Minsal)",
+                            "pregunta_ayuda": null,
+                            "pregunta_habilitado": "1",
+                            "respuestas": [
+                                {
+                                    "respuesta_id": 99,
+                                    "respuesta_glosa": null,
+                                    "respuesta_habilitado": "1"
+                                }
+                            ]
+                        },
+                        {
+                            "pregunta_id": 9,
+                            "orden_pregunta": 3,
+                            "grupo_id": 8,
+                            "pregunta_glosa": "De los pacientes UPC (UCI + UTI) anteriormente mencionados, ¿Cuántos no tienen patologías respiratorias?",
+                            "pregunta_ayuda": null,
+                            "pregunta_habilitado": "1",
+                            "respuestas": [
+                                {
+                                    "respuesta_id": 99,
+                                    "respuesta_glosa": null,
+                                    "respuesta_habilitado": "1"
+                                }
+                            ]
+                        },
+                        {
+                            "pregunta_id": 10,
+                            "orden_pregunta": 4,
+                            "grupo_id": 8,
+                            "pregunta_glosa": "¿Cuántos pacientes tienen en estos momentos conectados a ventilación mecánica invasiva en su servicio de urgencia?",
+                            "pregunta_ayuda": null,
+                            "pregunta_habilitado": "1",
+                            "respuestas": [
+                                {
+                                    "respuesta_id": 99,
+                                    "respuesta_glosa": null,
+                                    "respuesta_habilitado": "1"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

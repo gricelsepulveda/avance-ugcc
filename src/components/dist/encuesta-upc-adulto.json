@@ -1,0 +1,163 @@
+{
+    "ok": true,
+    "body": [
+        {
+            "encuesta_nombre": "ENCUESTA DIARIA DE UPC ADULTO 23-02-2021 - AM",
+            "encuesta_texto_inicio": "Primero que todo agradecer vuestro esfuerzo y logros tan relevantes para el cuidado de nuestros enfermos. El propósito de esta encuesta de conocer la capacidad actual de su establecimiento y requerimientos de soporte ventilatorio, camas intensivas. De esta manera la autoridad puede estar informada acerca de sus necesidades críticas y establecer estrategias de apoyo.En algunas de las preguntas encontrará una ayuda () que describe en más detalle la pregunta.",
+            "usuario": {
+                "usuario_nombres": "Daniela",
+                "usuario_apaterno": "Ampuero",
+                "usuario_amaterno": "Alcayaga",
+                "unidad": "SSVMQ",
+                "establecimiento": "H. Gustavo Fricke"
+            },
+            "grupo_preguntas": [
+                {
+                    "grupo_nombre": "CAMAS UCI (INTENSIVO)",
+                    "preguntas": [
+                        {
+                            "pregunta_id": 11,
+                            "orden_pregunta": 1,
+                            "grupo_id": 2,
+                            "pregunta_glosa": "¿Cuántas camas UCI (intensivo) habilitadas tiene actualmente en TOTAL en este momento, en TODO su establecimiento?",
+                            "pregunta_ayuda": "Corresponde al número total de camas que cuenta su establecimiento con capacidad de otorgar ventilación mecánica invasiva para pacientes adultos (dotación habitual o formal + habilitación excepcional + otras habilitaciones). Se incluyen camas de UCI formal del establecimiento, camas UCI habilitadas en pabellón, UCI infantil u otros, pero habilitadas para VMI de adulto. Se excluyen camas del Servicio de Urgencia. Se entiende por cama habilitada aquella que cuenta con lo necesario para dar las prestaciones que aplican, es decir, recurso humano, ventilador mecánico invasivo, monitores y otros.",
+                            "pregunta_habilitado": "1",
+                            "respuestas": [
+                                {
+                                    "respuesta_id": 1,
+                                    "respuesta_glosa": "Camas Habilitadas",
+                                    "respuesta_habilitado": "1"
+                                }
+                            ]
+                        },
+                        {
+                            "pregunta_id": 12,
+                            "orden_pregunta": 2,
+                            "grupo_id": 2,
+                            "pregunta_glosa": "Del total antes mencionado, ¿Cuántas camas UCI (intensivo) se encuentran ocupadas con pacientes?",
+                            "pregunta_ayuda": "Corresponde a camas habilitadas actuales que están siendo ocupadas por un paciente en atención clínica. No se incluyen camas fuera de servicio, bloqueadas, contaminadas, etc. En el caso de las COVID+ aplican pacientes que están ocupando una cama intensiva según los criterios antes mencionados y cumplen con criterios de COVID19+, ya sea por test+ o neumonía con patrón típico en la tomografía de tórax.",
+                            "pregunta_habilitado": "1",
+                            "respuestas": [
+                                {
+                                    "respuesta_id": 5,
+                                    "respuesta_glosa": "COVID +",
+                                    "respuesta_habilitado": "1"
+                                },
+                                {
+                                    "respuesta_id": 6,
+                                    "respuesta_glosa": "NO COVID",
+                                    "respuesta_habilitado": "1"
+                                },
+                                {
+                                    "respuesta_id": 7,
+                                    "respuesta_glosa": "Ocupadas UCI Ocupadas Total",
+                                    "respuesta_habilitado": "1"
+                                }
+                            ]
+                        },
+                        {
+                            "pregunta_id": 13,
+                            "orden_pregunta": 3,
+                            "grupo_id": 2,
+                            "pregunta_glosa": "De las cama ocupadas de UCI mencionadas anteriormente, ¿cuántos pacientes están conectados a ventilación mecánica invasiva?",
+                            "pregunta_ayuda": null,
+                            "pregunta_habilitado": "1",
+                            "respuestas": [
+                                {
+                                    "respuesta_id": 5,
+                                    "respuesta_glosa": "COVID +",
+                                    "respuesta_habilitado": "1"
+                                },
+                                {
+                                    "respuesta_id": 6,
+                                    "respuesta_glosa": "NO COVID",
+                                    "respuesta_habilitado": "1"
+                                },
+                                {
+                                    "respuesta_id": 7,
+                                    "respuesta_glosa": "Ocupadas UCI Ocupadas Total",
+                                    "respuesta_habilitado": "1"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "grupo_nombre": "CAMAS UTI (INTERMEDIO)",
+                    "preguntas": [
+                        {
+                            "pregunta_id": 14,
+                            "orden_pregunta": 4,
+                            "grupo_id": 4,
+                            "pregunta_glosa": "¿Cuántos camas UTI (intermedio) habilitadas tiene actualmente en TOTAL en este momento, en TODO su establecimiento?",
+                            "pregunta_ayuda": null,
+                            "pregunta_habilitado": "1",
+                            "respuestas": [
+                                {
+                                    "respuesta_id": 1,
+                                    "respuesta_glosa": "Camas Habilitadas",
+                                    "respuesta_habilitado": "1"
+                                }
+                            ]
+                        },
+                        {
+                            "pregunta_id": 15,
+                            "orden_pregunta": 5,
+                            "grupo_id": 4,
+                            "pregunta_glosa": "Del total de camas UTI antes mencionado, ¿Cuántas camas UTI (intermedio) se encuentran ocupadas con pacientes?",
+                            "pregunta_ayuda": null,
+                            "pregunta_habilitado": "1",
+                            "respuestas": [
+                                {
+                                    "respuesta_id": 5,
+                                    "respuesta_glosa": "COVID +",
+                                    "respuesta_habilitado": "1"
+                                },
+                                {
+                                    "respuesta_id": 6,
+                                    "respuesta_glosa": "NO COVID",
+                                    "respuesta_habilitado": "1"
+                                },
+                                {
+                                    "respuesta_id": 8,
+                                    "respuesta_glosa": "Ocupadas UTI Ocupadas Total",
+                                    "respuesta_habilitado": "1"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "grupo_nombre": "PACIENTES VENTILADOS OTROS UNIDADES HOSPITALARIAS",
+                    "preguntas": [
+                        {
+                            "pregunta_id": 16,
+                            "orden_pregunta": 6,
+                            "grupo_id": 5,
+                            "pregunta_glosa": "Pacientes ventilados en otras unidades hospitalarias ",
+                            "pregunta_ayuda": "Corresponde al número de pacientes adultos conectados a VMI fuera de las camas habilitadas como intensivas mencionadas en la pregunta 1. Se excluyen pacientes en camas de UCI formal del establecimiento, camas UCI habilitadas en pabellón, UCI infantil u otros pero habilitadas para VMI de adulto. Se excluyen camas del Servicio de Urgencias. Ejemplo, aplican para pacientes conectado a VMI en UTI (intermedio), cama básica o media.",
+                            "pregunta_habilitado": "1",
+                            "respuestas": [
+                                {
+                                    "respuesta_id": 5,
+                                    "respuesta_glosa": "COVID +",
+                                    "respuesta_habilitado": "1"
+                                },
+                                {
+                                    "respuesta_id": 6,
+                                    "respuesta_glosa": "NO COVID",
+                                    "respuesta_habilitado": "1"
+                                },
+                                {
+                                    "respuesta_id": 9,
+                                    "respuesta_glosa": "Ventiladores totales en otras unidades",
+                                    "respuesta_habilitado": "1"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+  "name": "maqueta-ugcc",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "qa" : "vue-cli-service serve --mode test",
+    "build": "vue-cli-service build",
+    "hosting": "firebase deploy --only hosting",
+    "deploy": "yarn build && yarn hosting"
+  },
+  "dependencies": {
+    "@types/vuelidate": "^0.7.14",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "bootstrap-vue": "^2.21.2",
+    "core-js": "^3.6.5",
+    "dotenv": "^8.2.0",
+    "vee-validate": "^2.2.15",
+    "vue": "^2.6.12",
+    "vue-axios": "^3.2.4",
+    "vue-class-component": "^7.2.6",
+    "vue-property-decorator": "^9.1.2",
+    "vue-router": "^3.2.0",
+    "vuelidate": "^0.7.6",
+    "vuex": "^3.4.0",
+    "xlsx": "^0.16.9",
+    "yup": "^0.32.9"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.11",
+    "@vue/cli-plugin-router": "~4.5.11",
+    "@vue/cli-plugin-typescript": "~4.5.11",
+    "@vue/cli-plugin-vuex": "~4.5.11",
+    "@vue/cli-service": "~4.5.11",
+    "sass": "^1.26.5",
+    "sass-loader": "^8.0.2",
+    "typescript": "^3.9.9",
+    "vue-template-compiler": "^2.6.11"
+  }
+}

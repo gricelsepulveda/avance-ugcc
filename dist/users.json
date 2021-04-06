@@ -1,0 +1,17 @@
+[
+  {
+    "user": "10.123.123-1",
+    "password": "123456",
+    "type": "Call_Center"
+  },
+  {
+    "user": "20.123.123-1",
+    "password": "123456",
+    "type": "Hospital"
+  },
+  {
+    "user": "",
+    "password": "",
+    "type": ""
+  }
+]

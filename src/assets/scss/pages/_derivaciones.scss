@@ -1,0 +1,13 @@
+.derivaciones {
+  &__alert {
+    border-radius: 5px;
+    label {
+      font-weight: 700;
+    }
+  }
+}
+
+.btn-check:focus + .btn,
+.btn:focus {
+  box-shadow: none;
+}

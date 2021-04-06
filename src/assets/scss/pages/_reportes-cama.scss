@@ -1,0 +1,44 @@
+.reportescamas {
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 10px;
+  position: relative;
+  
+  &__titulo {
+    top: -12px;
+    background-color: #fff;
+    padding: 0 5px;
+    position: absolute;
+  }
+
+  &__macrozona .form-group,
+  &__serviciosalud .form-group,
+  &__region .form-group,
+  &__establecimiento .form-group {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+  }
+  label {
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 7px;
+    width: 100%;
+  }
+  &__fechas {
+    label {
+      flex-basis: 4.75rem;
+    }
+  }
+}
+
+.reportes-graficos {
+  &__layout {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+    grid-gap: 50px 10px;
+    &--5 {
+      grid-column: span 2;
+    }
+  }
+}
